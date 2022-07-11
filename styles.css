@@ -189,7 +189,7 @@ footer {
 
 @media screen and (max-width: 320px) {
   .jumbo-custom {
-    width: 400px;
+    width: 420px;
     height: 100vh;
   }
 
@@ -203,5 +203,26 @@ footer {
 
   .banner a {
     transform: translate(-50%, 120%);
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .jumbo-custom {
+    width: 481px;
+    height: 100vh;
+  }
+
+  .banner p {
+    top: 56%;
+  }
+
+  .banner a {
+    transform: translate(-50%, 90%);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .banner p {
+    top: 55%;
   }
 }
