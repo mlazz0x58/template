@@ -156,17 +156,21 @@ footer {
 
 @media screen and (max-width: 506px) {
   .banner h1 {
-    font-size: 24px;
-    transform: translate(-50%, -175%)
+    font-size: 20px;
+    transform: translate(-50%, -200%)
   }
 
   .banner p {
-    font-size: 16px;
-    transform: translate(-50%, -135%);
+    font-size: 12px;
+    transform: translate(-50%, -212%);
   }
 
   .btn-banner {
-    transform: translate(-50%, -24%);
+    transform: translate(-50%, -155%);
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+    text-align: center;
   }
 
 }
