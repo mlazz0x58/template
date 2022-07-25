@@ -10,31 +10,56 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.banner h1{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px;
+html {
+  scroll-behavior: smooth;
 }
 
-.banner p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+body::-webkit-scrollbar {
+  width: 6px;
 }
 
-.banner a {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  width: 200px;
+body::-webkit-scrollbar{
+  background-color: var(--color-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--color-hover);
+}
+
+footer {
+  background-color: var(--color-bg);
+}
+
+#services{
+  margin-bottom: 100px;
+}
+
+.header-custom {
+  background: var(--color-bg);
+}
+
+.jumbo-custom{
+  height: 624px;
+  background: var(--color-bg);
+}
+
+.title{
+  padding-top: 150px;
+}
+
+.btn-home{
+  color: var(--color-bg);
   background: var(--color-second);
+}
+
+.btn-home:hover{
+  color: var(--color-text);
+  background: var(--color-hover);
+}
+
+.icon-custom{
+  font-size: 75px;
 }
 
 .btn-whatsapp-pulse {
@@ -135,47 +160,7 @@
   text-decoration: none;
 }
 
-footer {
-  background-color: var(--color-bg);
-}
-
-
-
 /* end: Preloader */
-
-/*
-@media screen and (max-width: 1004px) {
-  .banner h1 {
-    transform: translate(-50%, -90%);
-  }
-
-  .banner p {
-    transform: translate(-50%, -70%);
-  }
-}
-
-@media screen and (max-width: 506px) {
-  .banner h1 {
-    font-size: 20px;
-    transform: translate(-50%, -200%)
-  }
-
-  .banner p {
-    font-size: 12px;
-    transform: translate(-50%, -212%);
-  }
-
-  .btn-banner {
-    transform: translate(-50%, -155%);
-    height: 40px;
-    width: 100px;
-    font-size: 13px;
-    text-align: center;
-  }
-
-}
-
-*/
 
 /*
 
@@ -184,52 +169,5 @@ footer {
 769px — 1024px: telas pequenas, laptops
 1025px — 1200px: desktops, telas grandes
 1201px e acima —  telas muito grandes, TVs
-
-*/
-
-@media screen and (max-width: 320px) {
-  .jumbo-custom {
-    width: 320px;
-    height: 100vh;
-  }
-
-  .banner h1 {
-    top: 50%;
-  }
-
-  .banner p {
-    top: 74%;
-  }
-
-  .banner a {
-    transform: translate(-50%, 120%);
-  }
-}
-
-
-@media screen and (max-width: 481px) {
-  .jumbo-custom {
-    width: 481px;
-    height: 100vh;
-  }
-
-  .banner h1 {
-    top: 60%;
-  }
-
-  .banner p {
-    top: 80%;
-  }
-
-  .banner a {
-    transform: translate(-50%, 90%);
-  }
-}
-/*
-@media screen and (max-width: 769px) {
-  .banner p {
-    top: 55%;
-  }
-}
 
 */
